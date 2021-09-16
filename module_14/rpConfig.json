@@ -1,0 +1,16 @@
+{
+  "token": "ae2c1b0c-ebe0-478e-8b91-17a047db5a36",
+  "endpoint": "https://reportportal.epam.com/api/v1",
+  "launch": "HW 14",
+  "project": "sviatlana_pashko_personal",
+  "takeScreenshot": "onFailure",
+  "description": "Testing integration with report portal within HW 14",
+  "attributes": [
+    {
+      "key": "HW",
+      "value": "14"
+    }
+  ],
+  "mode": "DEFAULT",
+  "debug": false
+}

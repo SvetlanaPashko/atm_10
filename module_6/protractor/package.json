@@ -1,0 +1,12 @@
+{
+  "name": "protractor_homework",
+  "version": "1.0.0",
+  "scripts": {
+    "postinstall": "webdriver-manager update",
+    "test": "protractor"
+  },
+  "dependencies": {
+    "chai": "^4.2.0",
+    "protractor": "^7.0.0"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "protractor_homework",
+  "version": "1.0.0",
+  "scripts": {
+    "type": "module",
+    "postinstall": "webdriver-manager update",
+    "pretest": "eslint ",
+    "test": "protractor --disableChecks",
+    "allure:report": "allure generate artifacts/reports/allure/source -c -o ./artifacts/reports/allure/report"
+  },
+  "dependencies": {
+    "allure-commandline": "^2.13.8",
+    "allure-jasmine": "^2.0.0-beta.9",
+    "chai": "^4.2.0",
+    "eslint": "^7.17.0",
+    "husky": "^4.3.6",
+    "jasmine-reporters": "^2.4.0",
+    "log4js": "^6.3.0",
+    "mocha": "^8.2.1",
+    "protractor": "^7.0.0",
+    "protractor-beautiful-reporter": "^1.3.6",
+    "yargs": "^16.2.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run pretest"
+    }
+  }
+}

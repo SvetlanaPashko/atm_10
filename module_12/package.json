@@ -1,0 +1,12 @@
+{
+  "name": "module_12",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "mocha ./src/tests/*.spec.js"
+  },
+  "dependencies": {
+    "chai": "^4.3.0",
+    "mocha": "^8.2.1",
+    "node-fetch": "^2.6.1"
+  }
+}

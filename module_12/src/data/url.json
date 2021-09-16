@@ -1,0 +1,7 @@
+{
+  "baseUrl1" : "https://jsonplaceholder.typicode.com/users",
+  "baseUrl" : "https://petstore.swagger.io/v2/",
+  "swaggerId" : "https://petstore.swagger.io/v2/pet/11",
+  "swaggerUpdate" : "https://petstore.swagger.io/v2/pet/",
+  "swaggerDelete" : "https://petstore.swagger.io/v2/pet/9"
+}

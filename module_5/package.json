@@ -1,0 +1,29 @@
+{
+  "name": "module_5",
+  "version": "1.0.0",
+  "description": "homework for fifth module",
+  "scripts": {
+    "test": "mocha ./tests/*.spec.js",
+    "mochawensome": "mocha ./tests/*.spec.js --reporter mochawesome",
+    "coverage": "nyc npm run test"
+  },
+  "author": "Sviatlana_Pashko",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^7.16.0",
+    "mocha": "^8.2.1",
+    "mochawesome": "^6.2.1",
+    "nyc": "^15.1.0"
+  },
+  "nyc": {
+    "reporter": [
+      "html",
+      "text"
+    ],
+    "check-coverage": true,
+    "branches": 90,
+    "lines": 90,
+    "functions": 90,
+    "statements": 90
+  }
+}
